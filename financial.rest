@@ -1,2 +1,12 @@
 ###
-GET http://localhost:3001/users
+GET http://localhost:3001/v1/users
+Content-Type: application/json
+
+###
+POST http://localhost:3001/auth/signup
+Content-Type: application/json
+{
+  "name": "User 1",
+  "mail": "user@mail.com",
+  "password": "123456"
+}
