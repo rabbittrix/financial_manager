@@ -3,11 +3,26 @@
   "version": "1.0.0",
   "description": "Financial Manager API",
   "main": "index.js",
+  "jest": {
+    "coverageThreshold": {
+      "global": {
+        "statements": 50,
+        "branches": 50,
+        "functions": 50,
+        "lines": 50
+      }
+    }
+  },
   "scripts": {
     "start": "nodemon src/server.js",
-    "test": "jest --coverage",
+    "test": "jest --coverage --runInBand --forceExit",
     "lint": "eslint src/** test/** --fix",
     "secure-mode": "jest --watchAll --verbose=true"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": " "
+    }
   },
   "keywords": [],
   "author": "Roberto de Souza",
@@ -25,6 +40,7 @@
     "body-parser": "1.19.0",
     "consign": "0.1.6",
     "express": "4.17.1",
+    "husky": "^4.2.5",
     "jwt-simple": "0.5.5",
     "knex": "0.21.1",
     "knex-logger": "^0.1.0",
