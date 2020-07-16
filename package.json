@@ -1,0 +1,39 @@
+{
+  "name": "financial_manager",
+  "version": "1.0.0",
+  "description": "Financial Manager API",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/server.js",
+    "test": "jest --coverage",
+    "lint": "eslint src/** test/** --fix",
+    "secure-mode": "jest --watchAll --verbose=true"
+  },
+  "keywords": [],
+  "author": "Roberto de Souza",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.3.1",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "jest": "26.1.0",
+    "nodemon": "^2.0.4",
+    "supertest": "^4.0.2"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "1.19.0",
+    "consign": "0.1.6",
+    "express": "4.17.1",
+    "jwt-simple": "0.5.5",
+    "knex": "0.21.1",
+    "knex-logger": "^0.1.0",
+    "moment": "^2.27.0",
+    "passport": "0.4.1",
+    "passport-jwt": "4.0.0",
+    "pg": "8.2.1",
+    "postgres": "1.0.2",
+    "uuidv4": "^6.1.1",
+    "winston": "^3.3.3"
+  }
+}
