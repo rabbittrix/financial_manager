@@ -15,9 +15,9 @@
   },
   "scripts": {
     "start": "nodemon src/server.js",
-    "test": "jest --coverage --runInBand --forceExit",
+    "test": "SET NODE_ENV=test & jest --coverage --runInBand --forceExit",
     "lint": "eslint src/** test/** --fix",
-    "secure-mode": "jest --watchAll --verbose=true"
+    "secure-mode": "SET NODE_ENV=test & jest --watchAll --verbose=true"
   },
   "husky": {
     "hooks": {
