@@ -23,3 +23,11 @@ node_modules/.bin/knex migrate:rollback --env test
 npm start (server)
 npm run secure-mode (tests)
 npm test (coverage)
+
+# Use PM2
+
+pm2 start npm -- start
+
+pm2 status
+
+pm2 stop
