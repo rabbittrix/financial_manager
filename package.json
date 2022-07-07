@@ -45,7 +45,7 @@
     "jwt-simple": "0.5.5",
     "knex": "0.21.1",
     "knex-logger": "^0.1.0",
-    "moment": "^2.27.0",
+    "moment": "^2.29.4",
     "passport": "0.4.1",
     "passport-jwt": "4.0.0",
     "pg": "8.2.1",
