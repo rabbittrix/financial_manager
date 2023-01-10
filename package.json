@@ -47,7 +47,7 @@
     "knex-logger": "^0.1.0",
     "moment": "^2.27.0",
     "passport": "0.4.1",
-    "passport-jwt": "4.0.0",
+    "passport-jwt": "4.0.1",
     "pg": "8.2.1",
     "postgres": "1.0.2",
     "uuidv4": "^6.1.1",
