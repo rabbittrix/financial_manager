@@ -43,7 +43,7 @@
     "express": "4.17.1",
     "husky": "^4.2.5",
     "jwt-simple": "0.5.5",
-    "knex": "0.21.1",
+    "knex": "2.4.0",
     "knex-logger": "^0.1.0",
     "moment": "^2.27.0",
     "passport": "0.4.1",
